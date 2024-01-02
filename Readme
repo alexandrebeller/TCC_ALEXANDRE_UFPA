@@ -1,11 +1,11 @@
-Os arquivos com os dados experimentatis coletados na pesquisa do TCC mostra no nome do arquivo qual 
-o tipo de controlador foi implementado, sendo P = proporcional, PID = Proporcional integral derivativo,
-o período de amostragem ts e qual o tipo de filtro utilizado, o valor de offset da posição angular do pêndulo.
+Os arquivos com os dados experimentais coletados na pesquisa do TCC mostra no nome qual 
+o tipo de controlador que foi implementado, sendo P = proporcional, PID = Proporcional integral derivativo,
+o período de amostragem ts, qual o tipo de filtro utilizado e o valor de offset da posição angular do pêndulo.
 
 Exemplo: Controlador_P_0.36_I_0.0401_D_0.01_ts_0.0075_filtro_complementar_2.54_offset_ver01
 
 Esse seria um controaldo PID, como P = 0.36, I = 0.0401, D = 0.01, filtro complementar, offset = 2.54
 
 Dentro dos arquivos os dados estão organizados em coludas da seguinte maneira
-< N úmerodaamostra >, < teta >, < sinaldecontrole >, < dt >
+< Númeroda amostra >, < teta >, < sinal de controle >, < dt >
 
