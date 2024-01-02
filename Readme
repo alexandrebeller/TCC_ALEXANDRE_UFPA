@@ -6,3 +6,6 @@ Exemplo: Controlador_P_0.36_I_0.0401_D_0.01_ts_0.0075_filtro_complementar_2.54_o
 
 Esse seria um controaldo PID, como P = 0.36, I = 0.0401, D = 0.01, filtro complementar, offset = 2.54
 
+Dentro dos arquivos os dados estão organizados em coludas da seguinte maneira
+< N úmerodaamostra >, < teta >, < sinaldecontrole >, < dt >
+
