@@ -1,13 +1,13 @@
-Os arquivos com os dados experimentais coletados na pesquisa do TCC mostra no nome qual 
+Os arquivos com os dados experimentais coletados na pesquisa do TCC indicam no nome qual 
 o tipo de controlador que foi implementado, sendo P = proporcional, PID = Proporcional integral derivativo,
 o período de amostragem ts, qual o tipo de filtro utilizado e o valor de offset da posição angular do pêndulo.
 
-Exemplo: Controlador_P_0.36_I_0.0401_D_0.01_ts_0.0075_filtro_complementar_2.54_offset_ver01
+Exemplo: Controlador_P_0.36_I_0.0401_D_0.01_ts_0.0075_filtro_complementar_offset_2.54
 
 Esse seria um controaldo PID, como P = 0.36, I = 0.0401, D = 0.01, filtro complementar, offset = 2.54
 
-Dentro dos arquivos os dados estão organizados em coludas da seguinte maneira
-< Númeroda amostra >, < teta >, < sinal de controle >, < dt >
+Dentro dos arquivos os dados estão organizados em coludas da seguinte maneira:
+< n° = Número da amostra >, < Teta = Posição angular do pêndulo com filtro >, < u = Sinal de controle >, < dt = Período de amostragem >
 
-Esquema elétrico criado no aplicativo Online EasyEAD pode ser aberto usando o arquivo em ZIP "Esquema elétrico e PCB"
+Esquema elétrico criado no aplicativo Online EasyEAD pode ser aberto no mesmo aplicatico que foi criado usando o arquivo em ZIP "Esquema elétrico e PCB"
 
