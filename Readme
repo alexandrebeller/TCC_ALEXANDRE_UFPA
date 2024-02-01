@@ -9,3 +9,5 @@ Esse seria um controaldo PID, como P = 0.36, I = 0.0401, D = 0.01, filtro comple
 Dentro dos arquivos os dados estão organizados em coludas da seguinte maneira
 < Númeroda amostra >, < teta >, < sinal de controle >, < dt >
 
+Esquema elétrico criado no aplicativo Online EasyEAD pode ser aberto usando o arquivo em ZIP "Esquema elétrico e PCB"
+
